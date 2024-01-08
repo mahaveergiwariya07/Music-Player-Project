@@ -1,0 +1,254 @@
+body{
+    font-family:"Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar{
+    background-color: #000;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+.main-content{
+    background-color:#121212;
+      flex: 1;
+      overflow: auto;
+      padding: 0 1.5rem 0 1.5rem;
+}
+.music-player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6.5rem;
+    padding: 0.5rem 0.75rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-option{
+     line-height: 2.5rem;
+     opacity: 0.75;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1rem;
+    padding:1rem ;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.library{
+        background-color: #121212;  
+        border-radius: 1.5rem;
+        height: 100%;
+        margin-top: 0.75rem;
+        padding:0.5rem 0.75rem;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.option-lib img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icons{
+    font-size: 1rem;
+    display: flex;
+}
+.icons i{
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.box{
+    background-color:#232323;
+    height: 8rem;
+    border-radius: 1rem; 
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 1rem 1.25rem;
+     
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: 0.8rem;
+    padding-top: 0.25rem;
+}
+.badge{
+    border: none;
+    background-color: white;
+    border-radius: 10rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    padding: 0.25rem 1rem;
+}
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    margin: 1rem 0 1rem 0;
+    z-index: 10;
+}
+.sticky-nav-icon i{
+     margin-left: 1rem;
+     font-size: 1.5rem;
+      padding-left: 1rem;
+}
+.sticky-nav-item button{ 
+       margin: 1rem;
+}
+.sticky-nav-item{
+    margin-right: 2rem;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+.card{
+    background-color: #232323; 
+    width: 150px;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem
+   
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.6rem;
+}
+.card-title{
+    font-weight: 700;
+}
+.card-info{
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 90%;
+    height: 60%;
+    border-top: 0.8px solid white;
+    opacity: 0.2;
+}
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color:#232323;
+    width: 100%;
+}
+.album{
+    width: 25%;
+    /* background-color: brown; */
+}
+.player{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.controler{
+    width: 25%;
+    /* background-color: chartreuse; */
+}
+.player-control i {
+          height: 0.9rem; 
+          width: 0.9em;
+         margin-right: 2rem;
+         opacity: 0.7;
+}
+.player-control i:hover {
+     opacity: 1;
+}
+.player-control{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.kala{
+    border-radius: 50%;
+   
+}
+.album{
+     display:flex ; 
+    justify-content:space-between;
+    align-items:center; 
+    margin-top: 6px; 
+    margin-left: 6px;
+}
+.logo-title{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+.logo-dis{
+    margin-left: 20px;
+}
+.logo-img{
+    border: none;
+    border-radius: 20px;
+}
+.logo-function i{
+    margin-left: 16px;
+}
+.progress-display ip{
+    width: 70%;
+}
+.controler {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
